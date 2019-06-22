@@ -127,6 +127,7 @@ dmypy.json
 node_modules/
 
 *.idea
+.idea/
 */static/
 media/
 
