@@ -123,10 +123,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Node modues
-node_modules/
+
+
 
 *.idea
+.idea/workspace.xml
 */static/
 media/
 
