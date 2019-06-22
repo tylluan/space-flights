@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Prosto+One&display=swap" rel="stylesheet">
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <title>Space flights</title>
+</head>
+
+<style>
+body {
+background-color: #040338
+}
+</style>
+
+<body>
+
+    <div class="container text-center">
+        <div class="container">
+            <h1 style="font-family: 'Prosto One', cursive;color: #ffb43e;margin: 80px;">🚀 Space flights menagement system 🚀</h1>
+        </div>
+    </div>
+
+     <div class="jumbotron bg-dark text-center">
+         <h3 style="font-family: 'Prosto One', cursive;color: #ffb43e">Please log in through the Django Admin Page</h3>
+         </p>
+         <button class="btn btn-warning" id="redirectButton" style="margin-top: 80px;">Redirect me</button>
+     </div>
+
+    <div class="container text-center" style="margin-bottom:0">
+        <h6 style="font-family: 'Prosto One', cursive;color: #ffb43e;">Draft v. 0.1</h6>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("redirectButton").onclick = function () {
+            location.href = "/admin/";
+        };
+    </script>
+</body>
+</html>
