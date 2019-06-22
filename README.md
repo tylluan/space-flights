@@ -50,22 +50,22 @@ DATABASES = {
 
 then run
 
-`python manage.py migrate`
+`python3 manage.py migrate`
 
 create admin account
 
-`python manage.py createsuperuser`
+`python3 manage.py createsuperuser`
 
 then make migrations for the app:
 
-`python manage.py makemigrations`
+`python3 manage.py makemigrations`
 
 migrate them:
 
-`python manage.py migrate`
+`python3 manage.py migrate`
 
 and start the development server:
 
-`python manage.py runserver`
+`python3 manage.py runserver`
 
 and open `localhost:8000` on your browser to view the app.
