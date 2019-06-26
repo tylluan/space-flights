@@ -16,8 +16,8 @@ Install the project dependencies:
 
 create a file named ".env"
 
-`mkdir static  && touch static/.env` (mac and linux)
-`mkdir static && type nul > static/.env` (windows)
+`mkdir spacecruise/static  && touch spacecruise/static/.env` (mac and linux)
+`mkdir spacecruise/static && type nul > spacecruise/static/.env` (windows)
 
 obtain a secret from MiniWebTool key and add to .env
 
